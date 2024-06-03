@@ -1,1 +1,5 @@
 # What is BOAT?
+
+
+```{tableofcontents}
+```
