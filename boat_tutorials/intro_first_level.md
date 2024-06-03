@@ -1,21 +1,34 @@
-(conceptual_framework)=
+(conceptual)=
 # Conceptual framework
+
+In this set of notebooks, we will focus on getting a solid conceptual level of understanding of how we can decompose an ocean acoustics problem into multiple pieces that can be considered separately to gain a holistic picture of the problem.
 
 
 ## Learning goals
 
-1. Identify the components of the system you are studying
-2. Identify known relationships and known processes
-3. Understand what is possible and caveats given the system
+Taking a systems approach to understand ocean acoustics problems, our learning goals are to be able to:
+1. Identify the components of the system underlying the research problem you are working on
+2. Identify the relationships of difference components in the system
+3. Determine which components are knonwn and unknown
+4. Understand what is possible to achieve when trying to characterize the unknowns
+5. Identify caveats in the measurement or inference/estimation process in the system
+
+
 
 
 ## Overview: motivating examples
-Description of scenarios without using the sonar equation first
 
-To get a better handle on what we plan to learn together, let's first take a look at the follow motivating examples.
+<!-- Description of scenarios without using the sonar equation first -->
 
+Let's start with an overview of general ocean acoustics problems with two motivating examples.
+For the fun and the importance of how this example encompasses the interdisciplinary nature of ocean acoustics, let's use the lives of Orcas, or or killer whales (_Orcinus orca_), to guide our exploration. In the example and follow up expansions later on this page, you will notice how the physics of sound, the biology of the whales and fish, the ocean environments, and our instruments all play a role in understanding the problem.
+
+We will also briefly introduce other examples of how the elements we consider here in ocean acoustics are related to our daily lives.
+
+
+(conceptual-overview-orca)=
 ### How do we study the life of an Orca?
-Orcas, or killer whales (_Orcinus orca_), are toothed whales that use sounds to communicate with each other and find food in the ocean.
+Killer whales are toothed whales (odontocetes) that use sounds to communicate with each other and find food in the ocean.
 
 - Listening for killer whales using hydrophones to know where and who (which "pod") has shown up
 - "Resident" killer whales
@@ -30,6 +43,7 @@ Orcas, or killer whales (_Orcinus orca_), are toothed whales that use sounds to 
     - humpback whales cultural transmission of call units
 
 
+(conceptual-overview-human)=
 ### How are these related to our daily lives?
 - Human senses
     - humans rely predominantly on vision to navigate the world
