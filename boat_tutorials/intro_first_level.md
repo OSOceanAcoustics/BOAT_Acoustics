@@ -64,8 +64,32 @@ The principles and elements we will learn from the section about the sonar quati
 
 
 
+
+
+
 (conceptual-sonar_equation)=
 ## The mighty sonar equation
+
+The Sonar Equation provides a systematic framework to help us understand the different components involved in either pure listening or active sensing (echolocation) using sound. Here, sonar stands for **SO**und **N**avigation **A**nd **R**anging. In pure listening scenarios, the sonar equation is written as:
+
+$$
+RL = SL - TL,
+$$
+
+and in the active sensing scenario, it is written as:
+
+$$
+RL = SL - 2 TL + TS
+$$
+
+Here, $RL$ denotes receive level, $SL$ denotes source level, $TL$ denotes transmission loss, and $TS$ denotes target strength. You may find references that write the sonar equation in slightly different forms. For example, some may include noise level ($NL$), array gain ($AG$), or directivity index ($DI$), like on the [DOSITS](https://dosits.org/science/advanced-topics/sonar-equation/) website. These variations stem from the exact setup of the problem that you are considering and the instrument choices. In the following we will provide you the understanding of the most basic terms shown in the above, and in the breakdown sections you will learn about where the other terms come from.
+
+`````{Tip}
+:class: tip
+Discovery of Sound in the Sea (DOSITS) contains a wealth of information to read about!
+`````
+
+
 
 - Sonar equation: RL = SL + 2 TL + TS
 - what are these terms? (conceptual descriptions of each term)
