@@ -16,6 +16,7 @@ Taking a systems approach to understand ocean acoustics problems, our learning g
 
 
 
+(conceptual-overview)=
 ## Overview: motivating examples
 
 <!-- Description of scenarios without using the sonar equation first -->
@@ -36,39 +37,35 @@ Transient killer whales, on the other hand, rely heavily both on listening and e
 
 Both resident and transient killer whales use a rich repertoire of sounds to communicate with each other. In fact, previous researches have found that different killer whale "pods" (matrilineal groups formed around genetically related females) have [distinct call patterns](https://orca.research.sfu.ca/call-library). This means we can acoustically inder the group identity of killer whales, which is really useful, since it is difficult to observe these aquatic animals effectively only from above the water surface.
 
-With these whales' extensive of sound in communication and foraging, we quickly realize that we can use hydrophones to detect their presence, determine their group identity, and infer what activities they may be engaged in (e.g., feeding or socializing). Multiple hydrophones can form a network to study these whales over a larger special area, since each hydrophone can only hear the whale effectively within a certain distance. In fact, this is what [Orcasound](https://www.orcasound.net/) is doing in the northeast corner of the Pacific Ocean. In addition to hydrophones, scientists have also put small electronic packages ("tags") with hydrophones and other sensors on the whales, to record the sounds the whales produce and experience together with their movements. Notably, these tags can be thought of as providing a types of observation that is more from the tagged whale's perspective. For example, one can see the rapid approach of a whale closing in on a fish via an [echogram](REF) formed by aligning the amplitude of the echo returns over consecutive echolocation clicks.
+With these whales' extensive use of sound in communication and foraging, we quickly realize that we can use hydrophones to detect their presence, determine their group identity, and infer what activities they may be engaged in (e.g., feeding or socializing). Multiple hydrophones can form a network to study these whales over a larger special area, since each hydrophone can only hear the whale effectively within a certain distance. In fact, this is what [Orcasound](https://www.orcasound.net/) is doing in the northeast corner of the Pacific Ocean. In addition to hydrophones, scientists have also put small electronic packages ("tags") with hydrophones and other sensors on the whales, to record the sounds the whales produce and experience together with their movements. Notably, these tags can be thought of as providing a types of observation that is more from the tagged whale's perspective. For example, one can see the rapid approach of a whale closing in on a fish via an [echogram](REF) formed by aligning the amplitude of the echo returns over consecutive echolocation clicks.
 
 Knowing all the above about the killer whales, we may start to ask questions like:
 - How far away can killer whales hear each other? How do we know how far away can we hear the whales using hydrophones? Does this distance change depending on the type of sounds emitted by the whales?
 - How do the whales know what type of fish they are "seeing" through echolocation? Are the echoes similar when there is a single fish vs when there are many fish? How do the echoes change depending on the size of the fish?
 - How do we select a good hydrophone to detect the whales? What are some characteristics to consider?
 
-Below, we will introduce the very useful "sonar equation" that can help use answer these questions.
+Below, we will introduce [the mighty "sonar equation"](conceptual-sonar_equation) that can help us answer these questions.
 
 
-
+<!-- 
 - other examples
     - blue whales communicate across ocean basin
     - humpback whales cultural transmission of call units
+ -->
 
 
 (conceptual-overview-human)=
 ### How are these related to our daily lives?
-- Human senses
-    - humans rely predominantly on vision to navigate the world
-    - however listening is an important sensory modality for us and often bring powerful experiences
-    - nevertheless, some unsighted humans have developed the ability to echolocate, just like the killer whales
-- Technology that uses similar principles
-    - radar
-        - uses backscatter (EM energy bounced off from objects) to sense the environment
-        - weather patterns (clouds, rain, snow, etc)
-        - bird migration
-    - medical ultrasound
-        - non-invasive imaging of the interior of human body
+Even though we do not live in an underwater environment, and as humans we typically rely predominantly on vision to navigate the world, sounds still play an important component of our daily lives. Listening is an important sensory modality for us to understand the environment. For example, we can usually tell how heavy the rain is by the sounds of raindrops hitting the windows; in a large and empty room, we often notice the presence of echoes of the sounds we make. Listening can also bring a powerful and emotional experience, as people who have attended concerts can attest to. In addition, many unsighted humans have also developed the ability to navigate by echolocation, just like the killer whales.
+
+As humans, we have also developed technologies that use the same principles as echolocation to probe our environments. For example, we use radar systems, which transmit electromagnetic waves and receive the "echoes" bounced off objects in the air to detect and track airplanes, characterize weather phenomena including cloud cover, rain, snow, etc., and even observing the migration of large herds of birds in the night sky. We also use medical ultrasound to image the interior of human body as a non-invasive diagnostic tool.
+
+The principles and elements we will learn from the section about the sonar quation can also be applied in these cases to understand our experiences of listening to sounds in our surrounding environment and these technologies.
 
 
 
-## The mighty Sonar Equation
+(conceptual-sonar_equation)=
+## The mighty sonar equation
 
 - Sonar equation: RL = SL + 2 TL + TS
 - what are these terms? (conceptual descriptions of each term)
