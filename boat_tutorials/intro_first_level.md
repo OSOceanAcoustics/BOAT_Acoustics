@@ -21,14 +21,24 @@ Taking a systems approach to understand ocean acoustics problems, our learning g
 <!-- Description of scenarios without using the sonar equation first -->
 
 Let's start with an overview of general ocean acoustics problems with two motivating examples.
-For the fun and the importance of how this example encompasses the interdisciplinary nature of ocean acoustics, let's use the lives of Orcas, or or killer whales (_Orcinus orca_), to guide our exploration. In the example and follow up expansions later on this page, you will notice how the physics of sound, the biology of the whales and fish, the ocean environments, and our instruments all play a role in understanding the problem.
+For the fun of it, and the importance of how this example embodies the interdisciplinary nature of ocean acoustics, let's use the lives of Orcas, or or killer whales (_Orcinus orca_), to guide our exploration. In the example and the follow up expansions later on this page, you will notice how the physics of sound, the biology of the whales and fish, the ocean environments, and our instruments all play a role in understanding the problem.
 
 We will also briefly introduce other examples of how the elements we consider here in ocean acoustics are related to our daily lives.
 
 
 (conceptual-overview-orca)=
 ### How do we study the life of an Orca?
-Killer whales are toothed whales (odontocetes) that use sounds to communicate with each other and find food in the ocean.
+Killer whales are toothed whales (odontocetes) that use sound to communicate with each other and find food in the ocean. There are two types of killer whales living on the west coast of the north American continent: the ["resident" and the "transient"](REF) killer whales.
+
+Resident killer whales typically hang out in coastal waters and primary feed on fish, as salmon. Since these fish don't make sound, the whales transmit impulsive and directional sounds (the ["clicks"](REF)) and use the returning echoes to find, track, and catch the fish. This is a special sensing modality called "echolocation," which not only killer whales, but all toothed whales and most bats also use. In this case, these fish species don't hear sounds produced by the killer whales because that is beyond their hearing range. However, note that this is not always true, as there are fish species with specialized high frequency hearing capability that can hear sounds above 20 kHz (which is considered "ultrasonic" for humans).
+
+Transient killer whales, on the other hand, rely heavily both on listening and echolocation to find their marine mammal prey, such as seals. Since the seals also use sound to communicate with one another and therefore hear well underwater, transient killer whales tune in to listen to sounds made by seals in order to detect and localize them, before switching to intensive echolocation clicks only when they are engaged in active pursuits to catch the seals.
+
+Both resident and transient killer whales use a rich repertoire of sounds to communicate with each other. In fact, previous researches have found that different killer whale "pods" (matrilineal groups formed around genetically related females) have [distinct call patterns](https://orca.research.sfu.ca/call-library). Together with their extensive use of echolocation, this means that as humans, we can deploy hydrophones to form a network to better understand these whales through detecting and tracking their acoustic activities (which is what [Orcasound](https://www.orcasound.net/) aims to do in the northeast corner of the Pacific Ocean).
+
+
+
+- Link to catalog from John Ford
 
 - Listening for killer whales using hydrophones to know where and who (which "pod") has shown up
 - "Resident" killer whales
