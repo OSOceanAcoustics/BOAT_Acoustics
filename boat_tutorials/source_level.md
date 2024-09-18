@@ -6,7 +6,7 @@ From our everyday experience, we encounter many sources of sound in our environm
 
 Before diving in, it's worth talking about what we mean when we say "sonar systems." The term "sonar" was originally coined as an acronym for Sound Navigation and Ranging and usually refers to a sound producing and/or receiving system that operates underwater. The basic idea behind a sonar is that it takes an electronic signal, typically a voltage that varies in time, and feeds that signal into a transducer which transforms that voltage into mechanical motion that generates sound. Any device that converts energy from one form to another is called a transducer. For example, the speaker in your headphones uses an electrical current to move a magnet which vibrates a surface against the air to produce sound. There are many types of transducers used in the design of sonars and the choice of transducer is often determined by the characteristics of the sound that needs to be produced. For example, an echosounder might use a small disk of piezoelectric material to produce a high-frequency, narrow beam of sound while scientists trying to transmit low-frequency sound across the Pacific Ocean used a [NEED DETAILS].
 
-![Kauai Source](KAUAI_source.png)
+![Kauai Source](./images/KAUAI_source.png)
 
 
 - General comments on the generation of sound
