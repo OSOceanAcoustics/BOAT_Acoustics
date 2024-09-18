@@ -15,10 +15,10 @@ parts:
       # sections:  # break up content into pages
       # - file: review_canonical
       # - file: review_variations
-  - caption: Deeper understanding  # deeper level
+  - caption: In-depth knowledge  # deeper level
     chapters:
     - file: in_depth/wave_eq
-  - caption: Best to know  # other important topics
+  - caption: Technical primers  # other important topics
     chapters:
     - file: others/decibel
     - file: others/time_freq
