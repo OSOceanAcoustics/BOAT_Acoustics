@@ -15,13 +15,15 @@ parts:
       # sections:  # break up content into pages
       # - file: review_canonical
       # - file: review_variations
+  - caption: Deeper understanding  # deeper level
+    chapters:
+    - file: wave_eq
   - caption: Best to know  # other important topics
     chapters:
     - file: others/decibel
     - file: others/spectrogram
     - file: others/linear_system
     # - file: echogram
-  # - caption: Into the weeds...  # deeper level
   # - caption: Jupyter Book templates
   #   chapters:
   #   - file: markdown
