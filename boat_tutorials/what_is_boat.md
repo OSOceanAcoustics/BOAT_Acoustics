@@ -15,4 +15,4 @@ Tutorials aimed at building up a conceptual level of understanding that allow st
 Tutorials aimed at digging into technical details of solving ocean acoustics problems and building in-depth understanding of specific topics.
 
 ### Technical primers
-Primer notebooks introducing specific technical topics that are used in ocean acoustics problems ubiquitously.
+Primers introducing specific technical topics that are used in ocean acoustics problems ubiquitously.

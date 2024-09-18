@@ -5,9 +5,9 @@ This repository hosts the initial development of the tutorials for the Bridge to
 We may break up this repository into multiple repositories as the materials grow and we invite others to join the effort.
 
 Below is a quick summary of what are in the folder:
-- [conceptual](./boat_tutorials/conceptual/): pages in the first (conceptual) level
-- [in_depth](./boat_tutorials/in_depth/): pages in the deeper level
-- [others](./boat_tutorials/others): concepts and technical materials used in main tutorial pages
+- [conceptual](./boat_tutorials/conceptual/): tutorials aimed at building up a conceptual level of understanding that allow students to think about ocean acoustics problems in a holistic manner
+- [in_depth](./boat_tutorials/in_depth/): tutorials aimed at digging into technical details of solving ocean acoustics problems and building in-depth understanding of specific topics.
+- [primers](./boat_tutorials/others): primers introducing specific technical topics that are used in ocean acoustics problems ubiquitously.
 - [images](./boat_tutorials/images): images used in the tutorial pages
-- [matlab](./boat_tutorials/matlab): matlab LiveScripts that prototype Python interactive widget implementations
+- [matlab](./boat_tutorials/matlab): matlab LiveScript prototypes of Python interactive widgets
 - [templates](./boat_tutorials/templates): templates from the JupyterBook starting pages for reference
