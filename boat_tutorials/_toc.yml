@@ -6,18 +6,18 @@ root: what_is_boat
 parts:
   - caption: Getting started  # first level
     chapters:
-    - file: intro_first_level
-    - file: source_level
-    - file: transmission_loss
-    - file: target_strength
-    - file: reverberation
-    - file: received_level
+    - file: conceptual/intro_first_level
+    - file: conceptual/source_level
+    - file: conceptual/transmission_loss
+    - file: conceptual/target_strength
+    - file: conceptual/reverberation
+    - file: conceptual/received_level
       # sections:  # break up content into pages
       # - file: review_canonical
       # - file: review_variations
   - caption: Deeper understanding  # deeper level
     chapters:
-    - file: wave_eq
+    - file: in_depth/wave_eq
   - caption: Best to know  # other important topics
     chapters:
     - file: others/decibel
