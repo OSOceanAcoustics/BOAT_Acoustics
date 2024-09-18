@@ -21,11 +21,11 @@ parts:
     # - file: spectrogram
     # - file: echogram
   # - caption: Into the weeds...  # deeper level
-  - caption: Jupyter Book templates
-    chapters:
-    - file: markdown
-    - file: notebooks
-    - file: markdown-notebooks
+  # - caption: Jupyter Book templates
+  #   chapters:
+  #   - file: markdown
+  #   - file: notebooks
+  #   - file: markdown-notebooks
   - caption: References
     chapters:
     - file: zbibliography
